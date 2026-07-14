@@ -1,214 +1,58 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
 body{
-
-    background:linear-gradient(135deg,#6C63FF,#3F8EFC);
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-
-}
-
-.container{
-
-    width:100%;
-    display:flex;
-    justify-content:center;
-    padding:20px;
-
+    background-color:#f2f2f2;
 }
 
 .card{
+    width:320px;
+    height:420px;
+    background-color:rgb(255, 255, 255);
 
-    width:380px;
-    background:rgba(255,255,255,.18);
-    backdrop-filter:blur(20px);
+    border:2px solid rgb(128, 128, 128);
 
-    border:1px solid rgba(255,255,255,.3);
+    margin:60px auto;
 
-    border-radius:25px;
-
-    padding:30px;
-
-    color:white;
-
-    box-shadow:
-    0 20px 45px rgba(0,0,0,.25);
-
+    padding:20px;
 }
 
-.top{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
+h2{
+    margin-bottom:20px;
 }
 
-.title{
+input[type=text],
+input[type=password]{
 
-    opacity:.8;
-    margin-bottom:8px;
-    font-size:15px;
+    width:280px;
+    height:30px;
 
-}
+    border:2px dotted gray;
 
-h1{
+    padding:6px;
 
-    font-size:34px;
-    margin-bottom:12px;
-
-}
-
-.growth{
-
-    background:#19c37d;
-    padding:6px 14px;
-    border-radius:30px;
-    font-size:14px;
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-
-}
-
-.icon{
-
-    width:70px;
-    height:70px;
-
-    border-radius:18px;
-
-    background:rgba(255,255,255,.2);
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-size:28px;
-
-}
-
-.stats{
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-
-    margin:35px 0;
-
-}
-
-.box{
-
-    background:rgba(255,255,255,.15);
-
-    border-radius:18px;
-
-    padding:18px;
-
-    text-align:center;
-
-}
-
-.box h3{
-
-    font-size:14px;
-    opacity:.8;
-    margin-bottom:8px;
-
-}
-
-.box p{
-
-    font-size:22px;
-    font-weight:600;
-
-}
-
-.progress-text{
-
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:12px;
-    font-size:15px;
-
-}
-
-.progress{
-
-    width:100%;
-    height:10px;
-
-    background:rgba(255,255,255,.2);
-
-    border-radius:30px;
-
-    overflow:hidden;
-
-}
-
-.progress-fill{
-
-    width:75%;
-    height:100%;
-
-    background:white;
-
-    border-radius:30px;
-
+    margin-top:7px;
 }
 
 button{
 
-    width:100%;
-    margin-top:30px;
+    width:140px;
+    height:40px;
 
-    border:none;
+    border:1px solid rgb(0, 0, 0);
 
-    background:white;
+    margin-top:10px;
 
-    color:#4A47FF;
+    padding:6px;
 
-    padding:16px;
+    background-color:rgb(0, 81, 128);
 
-    font-size:16px;
-
-    border-radius:14px;
-
-    cursor:pointer;
-
-    font-weight:600;
-
-    transition:.3s;
-
+    color:white;
 }
 
-button:hover{
 
-    transform:translateY(-4px);
-
+.google{
+    background-color:rgb(255, 0, 128);
 }
 
-@media(max-width:450px){
-
-.card{
-
-    width:100%;
-
-}
-
-.stats{
-
-    grid-template-columns:1fr;
-
-}
-
+p{
+    margin-top:20px;
+    margin-bottom:10px;
 }
